@@ -82,8 +82,6 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 		.tokenEnhancer(chain)
 		.userDetailsService(userDetailsService);
 		
-		
-		
 	}
 	
 	
